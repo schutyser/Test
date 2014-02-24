@@ -1,0 +1,31 @@
+img.introimage
+{
+	position: absolute;
+	max-width: 100%;
+	top: 10%;
+	left: 5%;
+	border-radius: 3px;
+	
+}
+
+img.ri:empty
+{
+	top: 50%;
+	
+}
+
+@media screen and (orientation: portrait) {
+  img.introimage { max-width: 90%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.introimage { max-height: 90%; }
+}
+
+#social
+{
+    position: absolute;
+    bottom: 5%;
+    margin-left: 40%;
+    margin-right: 50%;
+}
